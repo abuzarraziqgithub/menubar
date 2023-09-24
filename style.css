@@ -1,0 +1,67 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0.5rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.content
+{
+    border: 2px
+    solid#333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+header{
+    padding: 1rem;
+    display: block;
+    background-color: turquoise;
+    border-radius: 2rem 2rem 0 0;/*Top-left..Top-Right..bootom-right..bottom-left */
+    
+}
+ul
+{
+    list-style-type:none; 
+}
+li
+{
+    border-top: 1px solid #333;
+}
+li a
+{
+    display: block; /*This will takeup the all area of each block*/ 
+}
+li a,
+li a:visited
+{
+    text-decoration: none;
+    color: #333;
+}
+li a,
+li a:hover
+{
+    color:orangered;
+}
+footer a,
+a:hover
+{
+    color: red;
+    background-color: aquamarine;
+}
+li:last-child a
+{
+    border-radius: 0 0 2rem 2rem;
+}
+h1:hover
+{
+    color:goldenrod;
+    background-color:turquoise;
+    border-radius: 2rem 2rem 0 0;
+}
